@@ -1,14 +1,16 @@
 {
-    "name": "TOPSIC - Ctrl+Enter submission",
+    "name": "TOPSIC - Fast submission",
     "version": "1.0.0",
     "manifest_version": 3,
     "description": "ソースコードの提出をCtrl+Enterで出来るようになります",
+    "icons": {
+        "32": "submit.png"
+    },
     "content_scripts": [
         {
             "matches": [
                 "https://*/atcoder_problems/abc*",
-                "https://*/examinations/*/examination_results/*/resubmit",
-                "https://*/sql_drill/*"
+                "https://*/examinations/*/examination_results/*/resubmit"
             ],
             "js": ["content.js"]
         }
