@@ -7,6 +7,8 @@
                 let submitButton = '';
                 if (urlPath.includes('atcoder_problems')) {
                     submitButton = document.getElementById('submit_btn');
+                } else if (urlPath.includes('problem_detail')) {
+                    submitButton = document.getElementById('save_btn');
                 } else if (urlPath.includes('resubmit')) {
                     submitButton = document.getElementById(
                         'execute_exam_retake'

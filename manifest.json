@@ -10,6 +10,7 @@
         {
             "matches": [
                 "https://*/atcoder_problems/abc*",
+                "https://*/examinations/*/problem_detail/*",
                 "https://*/examinations/*/examination_results/*/resubmit"
             ],
             "js": ["content.js"]
